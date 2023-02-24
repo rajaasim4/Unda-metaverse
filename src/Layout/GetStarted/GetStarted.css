@@ -1,0 +1,58 @@
+.GetStarted {
+  width: 100%;
+  background-color: black;
+  padding: 10px 0px;
+}
+.GetStarted-main {
+  width: 90%;
+  margin: auto;
+  /* background: linear-gradient(
+    90.54deg,
+    #ff7070 -38.38%,
+    #ff8282 49.51%,
+    #ff7070 135.35%
+  ); */
+  background: #fc5050;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px;
+  height: 350px;
+  box-sizing: border-box;
+}
+.GetStarted-main h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+  text-align: center;
+}
+.GetStarted-main p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #121212;
+}
+.GetStarted-main button {
+  width: 207px;
+  height: 52px;
+  color: white;
+  cursor: pointer;
+  background: #000000;
+  border-radius: 15px;
+}
+@media screen and (max-width: 540px) {
+  .GetStarted-main h1 {
+    line-height: 40px;
+    font-size: 40px;
+  }
+  .GetStarted-main {
+    height: 470px;
+  }
+}

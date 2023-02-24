@@ -1,0 +1,140 @@
+.SignUp {
+  width: 100%;
+  height: 100%;
+  background-color: #051a22;
+}
+.SignUp nav {
+  width: 100%;
+  height: 90px;
+  background-color: transparent;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.SignUp nav h1 {
+  font-family: var(--poppins);
+  color: var(--maincolor);
+  font-size: 30px;
+}
+.SignUp nav h1 span {
+  font-family: var(--poppins);
+  color: white;
+}
+.SignUp-section {
+  height: 80%;
+  width: 40%;
+  margin: auto;
+  padding-top: 30px;
+}
+.SignUp-section h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: #ffffff;
+}
+.SignUp-section p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.SignUp-form {
+  height: 80%;
+  /* background-color: slateblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.form-input {
+  height: 60px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+::placeholder {
+  color: white;
+}
+.form-input input {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 45px;
+  background: #224957;
+  border-radius: 10px;
+  padding: 0px 20px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+.form-Checkbox {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-Checkbox-left input {
+  margin-right: 10px;
+}
+.form-Checkbox-left {
+  color: white;
+}
+.form-Checkbox-right {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffe927;
+}
+.SignUp button {
+  margin-top: 20px;
+  width: 400px;
+  height: 45px;
+  background: linear-gradient(
+    90.54deg,
+    #fdae8f -38.38%,
+    #fc4f4f 49.51%,
+    #ff7070 135.35%
+  );
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+.SignUp-wave {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.SignUp-wave img {
+  width: 100%;
+  height: 80%;
+}
+@media screen and (max-width: 540px) {
+  .SignUp-section h1 {
+    font-size: 45px;
+  }
+  .SignUp-section p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .SignUp-section {
+    width: 90%;
+  }
+  .form-input {
+    width: 100%;
+  }
+  .form-Checkbox {
+    width: 100%;
+  }
+  .SignUp-section button {
+    width: 100%;
+  }
+}

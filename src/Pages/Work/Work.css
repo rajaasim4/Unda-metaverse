@@ -1,0 +1,159 @@
+.Work {
+  width: 100%;
+  height: auto;
+  background-color: #030812;
+  position: relative;
+}
+.Work-gradient-bg {
+  width: clamp(100px, 500px, 300px);
+  height: 899px;
+  background: linear-gradient(
+    75.96deg,
+    #ffc83a 13.64%,
+    #ff008a 46.53%,
+    #6100ff 78.88%
+  );
+  filter: blur(90px);
+  position: absolute;
+  top: 0%;
+  right: 0;
+  opacity: 0.4;
+}
+.Work-main {
+  margin: auto;
+  width: 90%;
+  height: auto;
+  padding: 50px 0px;
+}
+.Work-hero {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
+.Work-left h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+}
+.Work-left h2 span {
+  color: fuchsia;
+}
+.Work-left p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.Work-right,
+.Work-left {
+  width: 50%;
+}
+.Work-right img {
+  width: 100%;
+  height: 100%;
+}
+.Work-btn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
+  max-width: 560px;
+  row-gap: 30px;
+}
+.Work-btn button {
+  outline: none;
+  width: 212px;
+  height: 72px;
+  border-radius: 16px;
+  font-size: 17px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 21px 56px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+}
+.Work-btn button:first-child {
+  background: linear-gradient(207.67deg, #fdae8f 3.43%, #fd1c68 104.7%);
+}
+.Work-btn button:last-child {
+  border: 1px solid white;
+}
+.Work-detials {
+  width: 100%;
+  margin-top: 30px;
+}
+.Work-details h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 88px;
+  text-align: center;
+  color: #ffffff;
+}
+.Work-detials-main {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+.Work-detials-card {
+  width: 270.25px;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.Card-bg {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.Card-bg span {
+  font-size: 25px;
+  color: white;
+}
+.Work-detials-card h4,
+.Work-detials-card p {
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 991px) {
+  .Work-hero {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .Work-left,
+  .Work-right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .Work-left h2,
+  .Work-left p {
+    text-align: center;
+  }
+  .Work-left h2 {
+    font-size: 40px;
+  }
+  .Work-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .Work-details h1 {
+    font-size: 40px;
+  }
+}

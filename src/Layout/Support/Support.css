@@ -1,0 +1,75 @@
+.Support {
+  width: 100%;
+  background-color: black;
+  padding: 20px 0px;
+}
+.Support-main {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SupportCard {
+  width: 45%;
+  height: 340px;
+  background: #fc5050;
+  border-radius: 30px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.SupportCard h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.SupportCard p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin: 25px 0px;
+}
+.SupportCard-details {
+  width: 100%;
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+
+  padding: 10px 0px;
+}
+.SupportCard-details button {
+  width: 150px;
+  height: 60px;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  color: #000000;
+  background-color: transparent;
+}
+.SupportCard-details span {
+  font-size: 45px;
+}
+
+@media screen and (max-width: 991px) {
+  .SupportCard {
+    height: max-content;
+  }
+}
+@media screen and (max-width: 540px) {
+  .Support-main {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .SupportCard {
+    width: 100%;
+  }
+}

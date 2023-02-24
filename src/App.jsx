@@ -1,0 +1,15 @@
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import Router from "./Routes/Router";
+const App = () => {
+  return (
+    <>
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
+    </>
+  );
+};
+
+export default App;

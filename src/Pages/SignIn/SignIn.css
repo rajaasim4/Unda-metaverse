@@ -1,0 +1,108 @@
+.SignIn {
+  width: 100%;
+  height: 100vh;
+  background-color: #051a22;
+  display: flex;
+  flex-direction: column;
+}
+.SignIn nav {
+  width: 100%;
+  height: 90px;
+  background-color: transparent;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.SignIn nav h1 {
+  font-family: var(--poppins);
+  color: var(--maincolor);
+  font-size: 30px;
+}
+.SignIn nav h1 span {
+  font-family: var(--poppins);
+  color: white;
+}
+.SignIn-section {
+  /* height: 80%; */
+  height: auto;
+  width: 40%;
+  margin: auto;
+  padding-top: 30px;
+}
+.SignIn-section h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: #ffffff;
+}
+.SignIn-section p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.SignIn-form {
+  height: 80%;
+  /* background-color: slateblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.SignIn button {
+  margin-top: 20px;
+  width: 400px;
+  height: 45px;
+  background: linear-gradient(
+    90.54deg,
+    #fdae8f -38.38%,
+    #fc4f4f 49.51%,
+    #ff7070 135.35%
+  );
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+.SignIn-wave {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  background-color: #051a22;
+}
+.SignIn-wave img {
+  width: 100%;
+  height: 80%;
+}
+.Account-info-text a {
+  color: white;
+}
+.Account-info-text a:hover {
+  color: #fc4f4f;
+}
+@media screen and (max-width: 540px) {
+  .SignIn-section h1 {
+    font-size: 45px;
+  }
+  .SignIn-section p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .SignIn-section {
+    width: 90%;
+  }
+  .form-input {
+    width: 100%;
+  }
+  .form-Checkbox {
+    width: 100%;
+  }
+  .SignIn-section button {
+    width: 100%;
+  }
+}

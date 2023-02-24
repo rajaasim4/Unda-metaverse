@@ -1,0 +1,109 @@
+.Hero {
+  height: 800px;
+  width: 100%;
+  background-color: black;
+}
+.Hero-main {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.Hero-left,
+.Hero-right {
+  width: 50%;
+}
+
+.Hero-left h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: white;
+  font-family: var(--poppins);
+  background: linear-gradient(
+    94.62deg,
+    rgba(255, 255, 255, 0.5) -3.54%,
+    #ffffff 26.28%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Hero-left h1 span {
+  -webkit-text-fill-color: var(--maincolor);
+}
+.Hero-left p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b2b2b2;
+}
+.Hero-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  column-gap: 40px;
+}
+.Hero-btn button:first-child {
+  background: linear-gradient(234.84deg, #fdae8f 15.44%, #fd1c68 85.65%);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #070c0e;
+  height: 45px;
+  width: 151px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.Hero-btn button:last-child {
+  border: 0.5px solid #ffffff;
+  border-radius: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  height: 45px;
+  width: 185px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Hero-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media screen and (max-width: 991px) {
+  .Hero {
+    height: 100%;
+  }
+  .Hero-main {
+    margin-top: 20px;
+    height: max-content;
+    flex-direction: column;
+    row-gap: 50px;
+    flex-grow: 1;
+  }
+  .Hero-left,
+  .Hero-right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .Hero-left h1 {
+    line-height: 55px;
+    text-align: center;
+  }
+  .Hero-left p {
+    text-align: center;
+  }
+}

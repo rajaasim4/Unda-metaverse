@@ -1,0 +1,131 @@
+.Comitment {
+  width: 100%;
+  background-color: black;
+  padding: 40px 0px;
+}
+.Comitment-main {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Comitment-left,
+.Comitment-right {
+  width: 47%;
+}
+.Comitment-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.Comitment-right h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: white;
+}
+.Comitment-right h2 span {
+  color: var(--maincolor);
+}
+.Comitment-right p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b3b3b3;
+  margin-bottom: 30px;
+}
+.Comitment-faq {
+  width: 100%;
+  height: max-content;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.Faq {
+  width: 100%;
+  height: 70px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.4s linear;
+  overflow: hidden;
+}
+.Faq-show {
+  height: 200px;
+}
+.Faq-top {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Faq-left {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.Faq-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background-color: var(--maincolor);
+  border-radius: 10px;
+}
+.Faq-icon span {
+  font-size: 45px;
+  color: white;
+}
+.Faq-left span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b3b3b3;
+}
+.Faq-right {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+.Faq-arrow {
+  cursor: pointer;
+  transition: 0.4s linear;
+}
+.Faq-arrow-rotate {
+  rotate: -180deg;
+}
+.Faq-content {
+  height: 150px;
+  transition: 0.4s linear;
+  display: none;
+}
+.Faq-content-show {
+  transition: 0.4s linear;
+  display: block;
+}
+@media screen and (max-width: 991px) {
+  .Comitment-main {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .Comitment-left,
+  .Comitment-right {
+    width: 100%;
+  }
+  .Faq {
+    height: max-content;
+    row-gap: 20px;
+  }
+}

@@ -1,0 +1,121 @@
+.AboutUs {
+  width: 100%;
+  height: auto;
+  background-color: #030812;
+  padding-top: 30px;
+}
+
+.AboutUs-main {
+  padding: 50px 0px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+  align-items: center;
+}
+.About-section {
+  padding: 30px;
+  border: 2px solid #fc5050;
+  border-radius: 20px;
+}
+.About-section h2 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #fc5050;
+  margin-bottom: 10px;
+}
+.About-section1 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.About-section1 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+
+  color: #ffffff;
+}
+.About-section2 {
+  width: 90%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.About-team-card {
+  width: 400px;
+  height: 250px;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.About-team-card h5 {
+  font-size: 22px;
+  color: white;
+}
+.About-tem-card-img {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+}
+.About-tem-card-img img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 540px) {
+  .About-section h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .About-section {
+    padding: 10px;
+    /* width: 90%; */
+  }
+  .About-section p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .About-team-card {
+    width: 100%;
+  }
+  .AboutUs-main {
+    padding: 0px;
+  }
+}
