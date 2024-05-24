@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   transition: 0.3s linear;
+  z-index: 99;
 }
 .Navbar {
   width: 90%;

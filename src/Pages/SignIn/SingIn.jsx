@@ -23,8 +23,8 @@ const SignIn = () => {
       </nav>
 
       <div className="SignIn-section">
-        <h1>Sign Ip</h1>
-        <p>Sign ip and start managing your candidates!</p>
+        <h1>Sign In</h1>
+        <p>Sign in and start managing your candidates!</p>
         <div className="SignIn-form">
           <Input type={"text"} name={"Login"} />
 
