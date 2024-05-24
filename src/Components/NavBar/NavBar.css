@@ -6,6 +6,7 @@
   align-items: center;
   transition: 0.3s linear;
   z-index: 99;
+  position: relative;
 }
 .Navbar {
   width: 90%;
